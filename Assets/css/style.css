@@ -54,6 +54,21 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+/* added the id below so i could bold the <figcaption> in <aside> to a different font then the <main> <figcaption>. */
+#bold {
+    font-weight: bold;
+    font-size: 18.72px;
+}
+/* added the id below so i could bold the <figcaption> in <main> to a different font then the <aside> <figcaption> */
+
+#bold1 {
+        font-weight: bold;
+        font-size: 36px;
+}
+/* added id below so i could allign <p> text to the left without moving the <figcaption> aswell */
+#pleft {
+        text-align: left;
+}
 
 .hero {
     height: 800px;
@@ -203,18 +218,4 @@ footer {
 /* changed from a class to an element */
 footer h2 {
     font-size: 20px;
-}
-/* added the id below so i could bold the <figcaption> in <aside> to a different font then the <main> <figcaption>. */
-#bold{
-font-weight: bold;
-font-size: 18.72px;
-}
-/* added the id below so i could bold the <figcaption> in <main> to a different font then the <aside> <figcaption> */
-#bold1{
-    font-weight: bold;
-    font-size: 36px;
-}
-/* added id below so i could allign <p> text to the left without moving the <figcaption> aswell */
-#pleft{
-    text-align: left;
 }
